@@ -998,8 +998,8 @@ img {
 
 /* Stiluri pentru imaginea SVG */
 .feature-list li svg {
-  width: 100%; /* Face imaginea să fie la lățime maximă în containerul său */
-  max-width: 270px; /* Limită de lățime a imaginii */
+  width: auto; /* Face imaginea să fie la lățime maximă în containerul său */
+  max-width: 100%; /* Limită de lățime a imaginii */
   height: auto;
 }
 
