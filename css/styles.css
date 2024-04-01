@@ -410,11 +410,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  width: 10px;
-  height: 5px;
   display: inline-block;
-  color: #212121;
-  background-color: rgb(225, 225, 225);
+  color: #7d20d3;
+  background-color: rgb(242, 235, 243);
   border: none;
   cursor: pointer;
   margin-right: 10px;
@@ -425,7 +423,7 @@ ul {
 .filter-buttons button:hover,
 .filter-buttons button:focus {
   color: rgb(255, 255, 255);
-  background-color: rgb(0, 136, 255);
+  background-color: rgb(122, 92, 231);
 }
 #portofoliolist li[data-category] {
   color: gray;
