@@ -981,24 +981,6 @@ img {
   padding: 20px;
 }
 
-/* Stiluri pentru meniul mobil la dimensiuni mai mari de 428px */
-@media (min-width: 428px) {
-  .mobile-menu-nav {
-    display: none;
-  }
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /* Stiluri pentru ecrane cu densitate x2 */
-  .exemplu {
-    background-image: url("imagine@2x.png");
-  }
-}
-/* Media query pentru ecrane cu lățime mai mică de 768px */
-@media (max-width: 768px) {
-  .container {
-    padding: 10px; /* Reducerea spațiului din jurul containerului pentru ecrane mici */
-  }
-}
 
 #portofoliolist {
   list-style: none;
