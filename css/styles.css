@@ -257,7 +257,6 @@ ul {
   width: calc(
     25% - 20px
   ); /* Ajustați dimensiunea cardurilor în funcție de nevoile dvs. */
-  box-sizing: border-box;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -377,7 +376,7 @@ ul {
 
 .designers-list h2 {
   position: absolute;
-  top: 350%;
+  top: 380%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
