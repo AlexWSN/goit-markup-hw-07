@@ -970,15 +970,10 @@ input:-ms-input-placeholder {
   top: -40px;
 }
 
-/* Stiluri pentru meniul mobil la dimensiuni mai mari de 428px */
-@media (min-width: 428px) {
-  .mobile-menu-nav {
-    display: none;
-  }
 }
 img {
   max-width: 100%;
-  height: auto;
+  height: auto; 
 }
 /* Stiluri pentru secțiunea containerului */
 .container {
@@ -1018,40 +1013,11 @@ img {
 .feature-list li p {
   margin: 0;
 }
-/* Stiluri pentru secțiunea containerului */
-.container {
-  width: 100%;
-  max-width: 100%;
-  padding: 20px;
-}
-
-/* Stiluri pentru lista de designeri */
-.designers-list {
-  list-style: none;
-  padding: 0;
-}
-
-/* Stiluri pentru titlul secțiunii */
-.designers-list h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-/* Stiluri pentru fiecare element din lista de designeri */
-.designers-list li {
-  display: flex;
-  flex-wrap: wrap; /* Permite afișarea mai multor designeri pe un rând */
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-/* Stiluri pentru imaginea designerului */
-.designers-list li img {
-  width: 100px; /* Dimensiunea imaginii */
-  height: auto;
-  margin: 0 10px; /* Spațiu între imagini */
-}
-
+/* Stiluri pentru meniul mobil la dimensiuni mai mari de 428px */
+@media (min-width: 428px) {
+  .mobile-menu-nav {
+    display: none;
+  }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* Stiluri pentru ecrane cu densitate x2 */
   .exemplu {
@@ -1064,12 +1030,7 @@ img {
     padding: 10px; /* Reducerea spațiului din jurul containerului pentru ecrane mici */
   }
 }
-/* Media query pentru ecrane cu lățime mai mică de 768px */
-@media (max-width: 768px) {
-  .designers-list li {
-    flex-basis: 50%; /* Afișarea a câte două designeri pe un rând pentru ecrane mici */
-  }
-}
+
 
 #portofoliolist {
   list-style: none;
