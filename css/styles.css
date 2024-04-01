@@ -1177,10 +1177,20 @@ footer {
   justify-content: space-between;
 }
 .contact-list {
-  display: flex;
   max-width: 500px;
   flex-flow: row;
 }
+
+.contact-list a {
+  color: #757575; /* culoare gri */
+  text-decoration: none; /* eliminăm sublinierea */
+}
+
+.contact-list a:hover {
+  color: rgb(149, 149, 237); /* culoare albastru la hover */
+  text-decoration: none; /* eliminăm sublinierea la hover */
+}
+
 /*stilizare link*/
 .navbar-nav li.active::after {
   content: "";
