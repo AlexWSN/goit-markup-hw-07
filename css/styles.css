@@ -41,6 +41,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+body {
+  overflow-x: hidden;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -972,6 +976,61 @@ input:-ms-input-placeholder {
     display: none;
   }
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Stiluri pentru secțiunea containerului */
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+}
+
+/* Stiluri pentru lista de funcționalități */
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Stiluri pentru fiecare element din lista de funcționalități */
+.feature-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Stiluri pentru imaginea SVG */
+.feature-list li svg {
+  width: 100%; /* Face imaginea să fie la lățime maximă în containerul său */
+  max-width: 270px; /* Limită de lățime a imaginii */
+  height: auto;
+}
+
+/* Stiluri pentru textul din lista de funcționalități */
+.feature-list li h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.feature-list li p {
+  margin: 0;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Stiluri pentru ecrane cu densitate x2 */
+  .exemplu {
+    background-image: url("imagine@2x.png");
+  }
+}
+/* Media query pentru ecrane cu lățime mai mică de 768px */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px; /* Reducerea spațiului din jurul containerului pentru ecrane mici */
+  }
+}
 
 #portofoliolist {
   list-style: none;
@@ -1193,11 +1252,10 @@ footer {
 
 /*stilizare link*/
 .navbar-nav li.active::after {
-  content: "";
   display: block;
   width: 100%;
-  height: 2px; /* grosimea sublinierii */
-  background-color: #007bff; /* culoarea sublinierii */
+  height: 2px;
+  background-color: #007bff;
   position: absolute;
   bottom: 0;
   left: 0;
