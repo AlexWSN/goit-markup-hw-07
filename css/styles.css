@@ -970,10 +970,9 @@ input:-ms-input-placeholder {
   top: -40px;
 }
 
-}
 img {
   max-width: 100%;
-  height: auto; 
+  height: auto;
 }
 /* Stiluri pentru secțiunea containerului */
 .container {
@@ -1018,6 +1017,7 @@ img {
   .mobile-menu-nav {
     display: none;
   }
+}
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* Stiluri pentru ecrane cu densitate x2 */
   .exemplu {
@@ -1030,7 +1030,6 @@ img {
     padding: 10px; /* Reducerea spațiului din jurul containerului pentru ecrane mici */
   }
 }
-
 
 #portofoliolist {
   list-style: none;
